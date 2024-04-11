@@ -1,7 +1,7 @@
 import requests
 import time
 
-ALB_URL = "http://ecs-demo-alb-1268306410.ap-southeast-1.elb.amazonaws.com" #update ALB URL
+ALB_URL = "http://ecs-demo-alb-1268306410.ap-southeast-1.elb.amazonaws.com"
 
 def simulate_traffic():
     while True:
